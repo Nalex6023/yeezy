@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Anton", sans-serif;
+}
+.first-page {
+  position: relative;
+  height: 100vh;
+}
+.img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(255, 255, 255);
+  height: 40rem;
+  width: 60rem;
+}
+.img1 {
+  background-color: transparent;
+}
+.img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.text {
+  font-family: "Anton", sans-serif;
+  position: absolute;
+  top: 5%;
+  left: 10%;
+  overflow: hidden;
+}
+.text h1 {
+  font-size: 15rem;
+}
+.second-page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5%;
+}
+.first {
+  display: flex;
+  justify-content: center;
+}
+.third-page {
+  height: 200vh;
+  overflow: hidden;
+  margin-top: 10rem;
+}
+.shoes {
+  overflow: hidden;
+}
+.shoes h2 {
+  font-size: 2rem;
+  text-align: center;
+}
+.text2 h1 {
+  font-size: 5rem;
+  font-weight: 400;
+  padding: 2%;
+  text-align: center;
+}
+.imgs {
+  display: flex;
+}
+.imgs2 {
+  display: flex;
+}
+.about {
+  height: 100vh;
+  position: relative;
+}
+.about img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.about h1 {
+  font-size: 10rem;
+  text-align: center;
+}
+.imgs3 {
+  display: flex;
+  width: 80%;
+}
+.others {
+  height: 100vh;
+  display: grid;
+  place-content: center;
+}
+.name h3 {
+  font-size: 3rem;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+.name {
+  border-bottom: 0.2px solid black;
+}
+.cursor-inner {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  mix-blend-mode: difference;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  z-index: 1000;
+}
+.hover2 {
+  width: 300px;
+  height: 200px;
+  border-radius: 0;
+  mix-blend-mode: normal;
+  z-index: -1;
+  background-color: black;
+  background-size: 100%;
+}
